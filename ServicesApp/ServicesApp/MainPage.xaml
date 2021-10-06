@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ServicesApp.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Padding="20" Orientation="Vertical" 
+                     VerticalOptions="CenterAndExpand">
+            <Label HorizontalOptions="Center" FontAttributes="Bold"
+                   FontSize="Large" x:Name="counter"/>
+            <Button Text="Start Services" 
+                    Clicked="Start" CornerRadius="10" 
+                    BackgroundColor="ForestGreen" TextColor="White"/>
+            <Button Text="Stop Services" 
+                    Clicked="Stop" CornerRadius="10" 
+                    BackgroundColor="red" TextColor="White"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
